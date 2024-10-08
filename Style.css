@@ -1,0 +1,92 @@
+body {
+    font-family: "Ariel";
+    font-size: 12pt;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.Gras {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Rouge {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.names-container,
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.names-container .Gras, .contact-container .Gras {
+    flex: 3; 
+}
+
+.names-container input[type="text"], 
+.contact-container input[type="text"], 
+.contact-container input[type="email"] {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+.contact-container input[type="tel"] {
+    width: 60%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #DC3545;
+}
+
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+    height: auto;
+}
+
+
+
+
+
+
+
